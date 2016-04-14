@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal_background"
+    tools:context="com.bohua.multgas.GeneralSetting"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/generalsetting_button_reutrn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/returnbutton"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:text="@string/generalSettingButtonSetting"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/generalsetting_button_calibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/generalsetting_button_reutrn"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:text="@string/generalSettingButtonCalibration" />
+
+    <Button
+        android:id="@+id/generalsetting_button_alarmpoint_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/generalsetting_button_calibration"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:text="@string/generalSettingButtonAlarmPointSetting" />
+
+    <Button
+        android:id="@+id/generalsetting_button_datasava_frequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalsetting_button_alarmpoint_setting"
+        android:text="@string/generalSettingButtonDatasavaFrequence" />
+
+    <Button
+        android:id="@+id/generalsetting_button_data_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalsetting_button_datasava_frequence"
+        android:text="@string/generalsettingButtonDataUpload" />
+
+    <Button
+        android:id="@+id/generalsetting_button_net_manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalsetting_button_data_upload"
+        android:text="@string/generalsettingButtonNetManage" />
+
+    <Button
+        android:id="@+id/generalsetting_button_device_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalsetting_button_net_manage"
+        android:text="@string/generalsettingButtonDeviceLog" />
+
+    <Button
+        android:id="@+id/generalsetting_button_device_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalsetting_button_device_log"
+        android:text="@string/generalsettingButtonDeviceInformation" />
+
+    <TextView
+        android:id="@+id/generalsetting_textview_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsetting_button_reutrn"
+        android:layout_alignBottom="@+id/generalsetting_button_reutrn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:text=""
+        android:textSize="15sp" />
+    
+    
+  	<TextView	
+        android:id="@+id/generalsetting_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+
+        
+        
+ 	 <TextView
+        android:id="@+id/generalsetting_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/> 
+        
+</RelativeLayout>
+

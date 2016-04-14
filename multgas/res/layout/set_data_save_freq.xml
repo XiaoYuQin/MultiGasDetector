@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal_background"
+    tools:context="com.bohua.multgas.SetDataSaveFreq"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/setdatasavefreq_button_return"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:textSize="14sp"
+        android:background="@drawable/returnbutton"
+        android:text="@string/setDataSaveFreqTextviewReturn" />
+
+    <TextView
+        android:id="@+id/setdatasavefreq_textview_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/setdatasavefreq_button_return"
+        android:layout_toRightOf="@+id/setdatasavefreq_button_return"
+        android:text="" />
+
+    <Button
+        android:id="@+id/setdatasavefreq_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ok_long_button"
+        android:text="@string/normalStringComplete" />
+
+    <RadioGroup
+        android:id="@+id/SetDataSaveFreq_RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/setdatasavefreq_button_return"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="42dp" >
+
+        <RadioButton
+            android:id="@+id/SetDataSaveFreq_Radio_5s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/SetDataSaveFreq_Radio_10s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/SetDataSaveFreq_Radio_20s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/SetDataSaveFreq_Radio_1m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/SetDataSaveFreq_Radio_3m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/SetDataSaveFreq_Radio_5m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </RadioGroup>
+
+     <TextView
+        android:id="@+id/SetDataSaveFreq_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+    
+    
+     
+ 	 <TextView
+        android:id="@+id/SetDataSaveFreq_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/> 
+        
+ 	 
+ 	 
+</RelativeLayout>

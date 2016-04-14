@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal_background"
+    tools:context="com.bohua.multgas.GeneralAlarmPoint"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/generalalarmpoint_button_return"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/returnbutton"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="12sp"
+        android:text="@string/generalAlarmPointTextViewReturn" />
+
+    <TextView
+        android:id="@+id/generalalarmpoint_textView_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:layout_toRightOf="@+id/generalalarmpoint_button_return"
+        android:text=""
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/generalalarmpoint_button_setalarmC0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/generalalarmpoint_button_return"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:text="@string/generalAlarmPointButtonSetAlarmC0" />
+
+    <Button
+        android:id="@+id/generalalarmpoint_button_setalarmCH4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalalarmpoint_button_setalarmC0"
+        android:text="@string/generalAlarmPointButtonSetAlarmCH4" />
+
+    <Button
+        android:id="@+id/generalalarmpoint_button_setalarmNO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalalarmpoint_button_setalarmCH4"
+        android:text="@string/generalAlarmPointButtonSetAlarmNO2" />
+
+    <Button
+        android:id="@+id/generalalarmpoint_button_setalarmO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chosebutton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/generalalarmpoint_button_setalarmNO2"
+        android:text="@string/generalAlarmPointButtonSetAlarmO2" />
+
+      <TextView
+        android:id="@+id/generalalarmpoint_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+      
+     <TextView
+        android:id="@+id/generalalarmpoint_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/> 
+    
+</RelativeLayout>
+

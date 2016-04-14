@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qinxiaoyu.multgas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- 添加读写SD卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 添加设备待机权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- android:theme="@style/AppTheme" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.bohua.multgas.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.GeneralSatuation"
+            android:label="@string/title_activity_general_satuation" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.SetCalibration"
+            android:label="@string/title_activity_set_zero" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.SetWifi"
+            android:label="@string/title_activity_set_wifi" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.GeneralSetting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.GeneralCalibration"
+            android:label="@string/title_activity_general_calibration" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationCO"
+            android:label="@string/title_activity_calibration_co" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationCH4"
+            android:label="@string/title_activity_calibration_ch4" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationOtherGas"
+            android:label="@string/title_activity_calibration_no2" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationO2"
+            android:label="@string/title_activity_calibration_o2" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.SetAlarmPointCO"
+            android:label="@string/title_activity_set_alarm_point_co" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.GeneralAlarmPoint"
+            android:label="@string/title_activity_set_alarm_point_ch4" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.SetAlarmPoint"
+            android:label="@string/title_activity_set_alarm_point" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.SetDataSaveFreq"
+            android:label="@string/title_activity_set_data_save_freq" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.DataUpload"
+            android:label="@string/title_activity_data_upload" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.NetManager"
+            android:label="@string/title_activity_net_manager" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.DeviceLog"
+            android:label="@string/title_activity_device_log" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.DeviceInformation"
+            android:label="@string/title_activity_device_information" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationSetZero"
+            android:label="@string/title_activity_gas_set_zero" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationSetSensitivity"
+            android:label="@string/title_activity_calibration_set_sensitivity" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationSetRatio"
+            android:label="@string/title_activity_calibration_set_ratio" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationChoose"
+            android:label="@string/title_activity_calibration_choose" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationChooseSetZP"
+            android:label="@string/title_activity_calibration_choose_set_zero_point" >
+        </activity>
+        <activity
+            android:name="com.bohua.multgas.CalibrationChooseSetSen"
+            android:label="@string/title_activity_calibration_choose_set_sen" >
+        </activity>
+
+        <service
+            android:name="com.bohua.multgas.ServiceData"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="com.bohua.multgas.DeviceLogReadPage"
+            android:label="@string/title_activity_device_log_read_page" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal_background"
+    tools:context="com.bohua.multgas.GeneralAlarmPoint"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/setalarmpoint_button_return"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/returnbutton"
+        android:textSize="12sp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/setalarmpoint_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background = "@drawable/ok_long_button"
+        android:text="@string/setAlarmPointButtonOK" />
+
+    <EditText
+        android:id="@+id/setalarmpoint_editText_alarmPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/setalarmpoint_textView_tips"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/setalarmpoint_textView_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/setalarmpoint_textView_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/setalarmpoint_button_return"
+        android:layout_alignBottom="@+id/setalarmpoint_button_return"
+        android:layout_toRightOf="@+id/setalarmpoint_button_return"
+        android:text=""
+        android:textSize="12sp" />
+    
+  	 <TextView
+        android:id="@+id/setalarmpoint_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+
+   	 <TextView
+        android:id="@+id/setalarmpoint_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/>
+
+   	 <TextView
+   	     android:id="@+id/setalarmpoint_textView_oldset"
+   	     android:layout_width="wrap_content"
+   	     android:layout_height="wrap_content"
+   	     android:layout_alignParentLeft="true"
+   	     android:layout_below="@+id/setalarmpoint_textView_tips"
+   	     android:text="" />
+
+   	 <TextView
+   	     android:id="@+id/setalarmpoint_textView_tips"
+   	     android:layout_width="wrap_content"
+   	     android:layout_height="wrap_content"
+   	     android:layout_alignParentLeft="true"
+   	     android:layout_below="@+id/setalarmpoint_button_return"
+   	     android:text=""
+   	     android:textAppearance="?android:attr/textAppearanceSmall" />
+   	 
+</RelativeLayout>
+

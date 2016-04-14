@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name = "database_save_time_interval">5</integer>
+    <integer name = "SensitivityInputMax">5000</integer>
+    <integer name = "CountDownTimerCount">2</integer>
+    
+    
+    <!-- 获取由驱动注册的class文件错误时返回的错误值 -->
+    <integer name = "returnClassFilesError">-255</integer>
+</resources>

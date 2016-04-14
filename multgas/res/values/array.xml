@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name = "O2_precent">
+        <item>0%</item>
+        <item>4.99%</item>
+     	<item>12.5%</item>
+     	<item>15%</item>
+     	<item>20.3%</item>
+     	<item>24.6%</item>
+    </string-array>
+    <string-array name = "Gas_type">
+        <item>氧气(O2)</item>
+        <item>一氧化碳(CO)</item>
+     	<item>二氧化氮(NO2)</item>
+     	<item>甲烷(CH4)</item>
+   	</string-array>
+   	<!-- 文件夹列表 -->
+    <string-array name = "folder_list">
+		<item>MultGasDetecter</item>
+		<item>MultGasDetecter/config</item>
+		<item>MultGasDetecter/database</item>
+		<item>MultGasDetecter/parameter</item>
+		<item>MultGasDetecter/logs</item>
+    </string-array>
+    <!-- 气体参数字符串数组 -->
+    <string-array name = "gas_param">
+        <item>O2Ratio</item>
+        <item>O2Sensitivity</item>
+        <item>O2ZeroPoint</item>
+        <item>O2AlarmPoint</item>
+     	<item>CORatio</item>	
+        <item>COSensitivity</item>
+        <item>COZeroPoint</item>
+        <item>COAlarmPoint</item>
+        <item>NO2Ratio</item>
+     	<item>NO2Sensitivity</item>	
+        <item>NO2ZeroPoint</item>
+        <item>NO2AlarmPoint</item>
+        <item>CH4Ratio</item>
+        <item>CH4Sensitivity</item>
+     	<item>CH4ZeroPoint</item>	
+     	<item>CH4AlarmPoint</item>
+        <item>DigPotenVal</item>
+        <item>DataSaveFreqence</item>
+    </string-array>
+    <string-array name = "GAS_TYPE">
+        <item>CO</item>
+        <item>CH4</item>
+        <item>NO2</item>
+        <item>O2</item>
+    </string-array>
+        <string-array name = "setAlarmPointArrayReturnText">
+        <item>设置\n一氧化碳\n报警点</item>
+        <item>设置\n甲烷\n报警点</item>
+        <item>设置\n二氧化氮\n报警点</item>
+        <item>设置\n氧气\n报警点</item>
+    </string-array>
+    <string-array name = "CalibrationSetZeroTipsText">
+        <item>请确定已将设备放置于通风处，180秒后一氧化碳将零点</item>
+        <item>请确定已将设备放置于通风处，180秒后甲烷将确定零点</item>
+        <item>请确定已将设备放置于通风处，180秒后二氧化氮将确定零点</item>
+        <item>请确定已通入99.9%标准氮气，180秒后氧气将确定零点</item>
+    </string-array>
+        
+    <string-array name = "SetAlarmPointTipsText">
+        <item>一氧化碳报警点</item>
+        <item>甲烷报警点</item>
+        <item>二氧化氮报警点</item>
+        <item>氧气报警点</item>
+    </string-array>
+        <string-array name = "SetAlarmPointIntroduction">
+        <item>一氧化碳报警点的设置范围为0~500PPM</item>
+        <item>甲烷报警点的设置范围为0%~4%</item>
+        <item>二氧化氮报警点设置范围为0~20PPM</item>
+        <item>氧气报警点设置范围为0%~30%</item>
+    </string-array>    
+    <string-array name = "SetDataSaveFreq">
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>1分钟</item>
+        <item>3分钟</item>
+        <item>5分钟</item>
+    </string-array>   
+    <string-array name = "DeviceInformationList">
+        <item >设备型号：</item>
+        <item >安卓版本：</item>
+        <item >内核版本：</item>
+        <item >应用版本：</item>
+        <item >发布时间：</item>
+        <item >硬件版本：</item>
+        <item >开发信息：</item>
+    </string-array>
+    <string-array name = "DeviceInformationValue">
+        <item ></item>
+        <item >4.2.2</item>
+        <item >3.0</item>
+        <item >V0.1</item>
+        <item >2014:07:25</item>
+        <item >v0.1</item>
+        <item ></item>
+    </string-array>
+    
+    
+        
+</resources>

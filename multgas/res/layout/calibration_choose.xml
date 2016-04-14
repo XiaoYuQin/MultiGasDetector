@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/normal_background"
+    tools:context="com.qinxiaoyu.multgas.CalibrationChoose" >
+
+    <Button
+        android:id="@+id/CalibrationChoose_Button_Return"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:textSize="14sp"
+        android:background="@drawable/returnbutton" 
+        android:text="@string/backoff" />
+
+    <Button
+        android:id="@+id/CalibrationChoose_Button_SetZeroPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CalibrationChoose_Button_Return"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:text="@string/CalibrationChooseButtonSetZeroPoint" />
+
+    <Button
+        android:id="@+id/CalibrationChoose_Button_SetSensitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CalibrationChoose_Button_SetZeroPoint"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:text="@string/CalibrationChooseButtonSetSensitivity" />
+    
+    
+     <TextView
+        android:id="@+id/CalibrationChoose_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+     
+    <TextView
+        android:id="@+id/CalibrationChoose_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/>
+
+</RelativeLayout>

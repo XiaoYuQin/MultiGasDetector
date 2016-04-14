@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical" > 
+ 
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center" > 
+ 
+        <TextView 
+            android:layout_width="0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" 
+            android:text="用户名" /> 
+ 
+        <TextView
+            android:id="@+id/AlertDialogTextViewSSID" 
+            android:layout_width="0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" /> 
+    </LinearLayout> 
+ 
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center" > 
+ 
+        <TextView 
+            android:layout_width="0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" 
+            android:text="密码" /> 
+ 
+        <EditText 
+            android:id="@+id/AlertDialogEditTextPassword"
+            android:layout_width="0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:password="true" /> 
+    </LinearLayout> 
+ 
+</LinearLayout> 
+

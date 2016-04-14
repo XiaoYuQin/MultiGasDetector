@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/normal_background"
+    tools:context="com.bohua.multgas.GeneralCalibration"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/generalcalibration_button_set_co"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/generalcalibration_button_return"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:text="@string/generalCalibrationButtonSetCO" />
+
+    <Button
+        android:id="@+id/generalcalibration_button_set_ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:layout_below="@+id/generalcalibration_button_set_co"
+        android:text="@string/generalCalibrationButtonSetCH4" />
+
+    <Button
+        android:id="@+id/generalcalibration_button_set_no2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+                android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:layout_below="@+id/generalcalibration_button_set_ch4"
+        android:text="@string/generalCalibrationButtonSetNO2" />
+
+    <Button
+        android:id="@+id/generalcalibration_button_set_o2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chosebutton"
+        android:layout_below="@+id/generalcalibration_button_set_no2"
+        android:text="@string/generalCalibrationButtonSetO2" />
+
+    <Button
+        android:id="@+id/generalcalibration_button_return"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:textSize="14sp"
+        android:background="@drawable/returnbutton"
+        android:text="@string/generalcalibrationTextviewReturn" />
+
+    <TextView
+        android:id="@+id/generalcalibration_textview_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalcalibration_button_return"
+        android:layout_alignBottom="@+id/generalcalibration_button_return"
+        android:layout_toRightOf="@+id/generalcalibration_button_return"
+        android:text=""
+        android:textSize="15sp" />
+
+  	 <TextView
+        android:id="@+id/generalcalibration_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+    
+  	 <TextView
+        android:id="@+id/generalcalibration_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/> 
+    
+</RelativeLayout>

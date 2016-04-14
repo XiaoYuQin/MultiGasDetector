@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/generalactivity_background"
+    tools:context="com.bohua.multgas.GeneralSatuation"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/generalactivity_button_setting"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/generalactivity_setting" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_co_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_co_value"
+        android:layout_alignBottom="@+id/generalsatuation_textview_co_value"
+        android:layout_toRightOf="@+id/generalsatuation_textview_co_value"
+        android:text="@string/generalSatuationTextviewUnitPpm" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_co_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/generalactivity_button_setting"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/generalSatuationTextviewCO"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_co_alarmpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="22dp"
+		android:layout_marginTop="255dp"
+		android:textSize="12sp"
+        android:text="@string/generalSatuationTextviewAlarmPoint" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_ch4_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_co_flag"
+        android:layout_alignBottom="@+id/generalsatuation_textview_co_flag"
+        android:layout_alignRight="@+id/generalactivity_button_setting"
+        android:layout_marginRight="24dp"
+        android:text="@string/generalSatuationTextviewCH4"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_ch4_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_ch4_value"
+        android:layout_alignBottom="@+id/generalsatuation_textview_ch4_value"
+        android:layout_toRightOf="@+id/generalsatuation_textview_ch4_value"
+        android:text="@string/generalSatuationTextviewUnitPrecent" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_ch4_alarmpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="190dp"
+		android:layout_marginTop="255dp"
+		android:textSize="12sp"
+        android:text="@string/generalSatuationTextviewAlarmPoint" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_no2_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/generalsatuation_textview_co_alarmpoint"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/generalsatuation_textview_co_flag"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/generalSatuationTextviewNO2"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_o2_alarmpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="190dp"
+		android:layout_marginTop="395dp"
+		android:textSize="12sp"
+        android:text="@string/generalSatuationTextviewAlarmPoint" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_no2_alarmpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="25dp"
+		android:layout_marginTop="395dp"
+		android:textSize="12sp"
+        android:text="@string/generalSatuationTextviewAlarmPoint" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_o2_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_o2_value"
+        android:layout_alignBottom="@+id/generalsatuation_textview_o2_value"
+        android:layout_toRightOf="@+id/generalsatuation_textview_o2_value"
+        android:text="@string/generalSatuationTextviewUnitPrecent" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_no2_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_no2_value"
+        android:layout_alignBottom="@+id/generalsatuation_textview_no2_value"
+        android:layout_toRightOf="@+id/generalsatuation_textview_no2_value"
+        android:text="@string/generalSatuationTextviewUnitPpm" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_Temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/generalsatuation_textview_ch4_flag"
+        android:layout_below="@+id/generalsatuation_textview_o2_alarmpoint"
+        android:layout_marginTop="25dp"
+        android:text="@string/generalSatuationTextviewGasInitValue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_ch4_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_co_unit"
+        android:layout_alignBottom="@+id/generalsatuation_textview_co_unit"
+        android:layout_alignLeft="@+id/generalsatuation_textview_ch4_flag"
+        android:text="@string/generalSatuationTextviewGasInitValue"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_o2_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_no2_flag"
+        android:layout_alignBottom="@+id/generalsatuation_textview_no2_flag"
+        android:layout_alignLeft="@+id/generalsatuation_textview_o2_value"
+        android:text="@string/generalSatuationTextviewO2"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_o2_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/generalsatuation_textview_no2_unit"
+        android:layout_alignBottom="@+id/generalsatuation_textview_no2_unit"
+        android:layout_alignLeft="@+id/generalsatuation_textview_ch4_alarmpoint"
+        android:text="@string/generalSatuationTextviewGasInitValue"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_no2_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/generalsatuation_textview_no2_flag"
+        android:layout_below="@+id/generalsatuation_textview_no2_flag"
+        android:text="@string/generalSatuationTextviewGasInitValue"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textview_co_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/generalsatuation_textview_co_flag"
+        android:layout_below="@+id/generalsatuation_textview_co_flag"
+        android:text="@string/generalSatuationTextviewGasInitValue"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_testview_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/generalsatuation_testview_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/generalsatuation_testview_test1"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/generalsatuation_testview_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/generalsatuation_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textSize="15sp"/>
+
+</RelativeLayout>

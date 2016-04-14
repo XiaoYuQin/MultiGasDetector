@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/qinxiaoyu/util/Ad7790.java" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/qinxiaoyu/multgas/GeneralSatuation.java" />
+        <ignore path="src/com/qinxiaoyu/multgas/SetCalibration.java" />
+        <ignore path="src/com/qinxiaoyu/util/SenserCalibration.java" />
+    </issue>
+    <issue id="InlinedApi" severity="ignore" />
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="SimpleDateFormat" severity="ignore" />
+</lint>
